@@ -1,4 +1,4 @@
-# SDXL LoRA Training Project
+# SDXL LoRA Training
 
 이 프로젝트는 SDXL 기반 모델을 LoRA를 사용하여 학습하는 파이프라인입니다.
 
@@ -29,16 +29,6 @@ CUDA_VISIBLE_DEVICES=0 python scripts/inference/generate_samples.py \
 ├── output/           # 결과물
 └── test_images/      # 테스트 이미지
 ```
-
-## 📚 문서
-
-자세한 사용법은 [docs/README.md](docs/README.md)를 참고하세요.
-
-### 주요 문서
-
-- **[상세 README](docs/README.md)**: 전체 사용 가이드
-- **[Image-to-Image 가이드](docs/IMG2IMG_GUIDE.md)**: 이미지 변환 가이드
-- **[학습 일지](docs/TRAINING_LOG_animagine_trial1.md)**: 실험 기록
 
 ## 🎯 주요 기능
 
